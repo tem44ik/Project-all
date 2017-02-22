@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'AktivGroteskLight';
+	src: url('../fonts/AktivGroteskLight/AktivGroteskLight.eot');
+	src: url('../fonts/AktivGroteskLight/AktivGroteskLight.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AktivGroteskLight/AktivGroteskLight.woff') format('woff'),
+		 url('../fonts/AktivGroteskLight/AktivGroteskLight.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'BaronNeue';
+	src: url('../fonts/BaronNeue/BaronNeue.eot');
+	src: url('../fonts/BaronNeue/BaronNeue.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BaronNeue/BaronNeue.woff') format('woff'),
+		 url('../fonts/BaronNeue/BaronNeue.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'BaronNeueBold';
+	src: url('../fonts/BaronNeueBold/BaronNeueBold.eot');
+	src: url('../fonts/BaronNeueBold/BaronNeueBold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/BaronNeueBold/BaronNeueBold.woff') format('woff'),
+		 url('../fonts/BaronNeueBold/BaronNeueBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'FuturaPT';
+	src: url('../fonts/FuturaPT/FuturaPT.eot');
+	src: url('../fonts/FuturaPT/FuturaPT.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/FuturaPT/FuturaPT.woff') format('woff'),
+		 url('../fonts/FuturaPT/FuturaPT.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}

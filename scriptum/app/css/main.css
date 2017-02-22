@@ -1,0 +1,471 @@
+body {
+  background-color: #f3f3f3;
+  position: relative;
+  line-height: 1.4;
+  font-family: "BaronNeue";
+  margin: 35px 35px;
+  color: #1a2631;
+}
+
+header .top_header {
+  background: url("../img/bg.jpg") no-repeat top center;
+  background-size: cover;
+  padding: 26px 23px 0 23px;
+  min-height: 1010px;
+  min-width: 100%;
+}
+
+header .top_header .logo {
+  position: relative;
+  display: inline-block;
+}
+
+header .top_header .menu {
+  float: right;
+}
+
+header .top_header .menu ul {
+  padding: 0;
+  margin: 0;
+  display: none;
+  float: left;
+}
+
+header .top_header .menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0 5px 10px 0;
+}
+
+header .top_header .menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 35px 7px;
+  float: right;
+}
+
+header .top_header .menu .btn_menu {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  float: right;
+  display: inline-block;
+}
+
+.about {
+  margin-top: 35px;
+  background-color: #FFF;
+}
+
+.about .about_img {
+  text-align: center;
+}
+
+.about .about_img img {
+  display: inline-block;
+  margin: 133px 0px;
+  width: 100%;
+  max-width: 678px;
+}
+
+.about .about_texts {
+  text-align: center;
+  display: inline-block;
+}
+
+.about .about_texts .about_top_text {
+  text-align: left;
+  font-size: 45px;
+  padding: 190px 0 50px;
+}
+
+.about .about_texts .about_text {
+  font-size: 15px;
+  font-family: "AktivGroteskLight";
+  text-align: left;
+  padding-bottom: 48px;
+}
+
+.about .about_texts .learn {
+  text-align: left;
+}
+
+.about .about_texts .learn a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #1a2631;
+}
+
+.works {
+  margin-top: 35px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.works .wokr_top_text {
+  font-size: 38px;
+  padding: 133px 0 33px;
+}
+
+.works .work_box button {
+  font-size: 12px;
+  margin: 0px 14.5px 7px;
+  border: none;
+  padding: 8px 0px;
+  background-color: transparent;
+  outline: none;
+}
+
+.works .work_box .col-md-4 {
+  padding-bottom: 24px;
+}
+
+.works .work_box .col-md-4 img {
+  margin: 0 12px;
+}
+
+.works .work_box button.mixitup-control-active {
+  border-bottom: 1px solid #1a2631;
+}
+
+.web {
+  margin-top: 35px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.web .web_top_text {
+  left: -270px;
+  position: absolute;
+  display: inline-block;
+}
+
+.web .web_top_text img {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.web .web_top_text .web_rigth_text {
+  margin: 340px 0 376px;
+  font-size: 65px;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 125px;
+  padding: 12px 27px 25px;
+  border-style: double;
+}
+
+.web .web_icon {
+  padding-top: 145px;
+  left: 100px;
+}
+
+.web .web_icon .col-md-6 img {
+  padding-bottom: 33px;
+}
+
+.web .web_icon .col-md-6 .web_text {
+  padding-bottom: 83px;
+}
+
+.skills {
+  margin-top: 35px;
+  background-color: #FFF;
+}
+
+.skills .skills_top_text {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 132px;
+}
+
+.skills .skills_item {
+  padding-top: 79px;
+  right: 10px;
+}
+
+.skills .skills_item .skills_text {
+  padding-bottom: 34px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.skills .skills_item img {
+  width: 100%;
+}
+
+.phone {
+  margin-top: 136px;
+  padding-top: 172px;
+  padding-left: 40px;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.phone .col-md-3 img {
+  width: 100%;
+  max-width: 313px;
+}
+
+.phone .left .icon_1,
+.phone .left .icon_2 {
+  text-align: left;
+  -webkit-transform: scaleX(1.0013);
+      -ms-transform: scaleX(1.0013);
+          transform: scaleX(1.0013);
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+
+.phone .left .phone_text_left {
+  text-align: left;
+  font-family: "AktivGroteskLight";
+  color: #6c6c6c;
+  padding-bottom: 48px;
+  line-height: 23px;
+}
+
+.phone .left .icon_1:after {
+  content: "";
+  background: url("../img/icon1.png") no-repeat;
+  display: block;
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin: 6px 30px 60px 0;
+}
+
+.phone .left .icon_2:after {
+  content: "";
+  background: url("../img/icon2.png") no-repeat;
+  display: block;
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin: 6px 30px 60px 0;
+}
+
+.phone .rigth .icon_3,
+.phone .rigth .icon_4 {
+  text-align: right;
+  -webkit-transform: scaleX(1.0013);
+      -ms-transform: scaleX(1.0013);
+          transform: scaleX(1.0013);
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+
+.phone .rigth .phone_text_right {
+  text-align: right;
+  font-family: "AktivGroteskLight";
+  color: #6c6c6c;
+  padding-bottom: 48px;
+  line-height: 23px;
+}
+
+.phone .rigth .icon_3:before {
+  content: "";
+  background: url("../img/icon3.png") no-repeat;
+  display: block;
+  width: 65px;
+  height: 65px;
+  float: right;
+  margin: 6px 0px 60px 30px;
+}
+
+.phone .rigth .icon_4:before {
+  content: "";
+  background: url("../img/icon4.png") no-repeat;
+  display: block;
+  width: 65px;
+  height: 65px;
+  float: right;
+  margin: 6px 0px 60px 30px;
+}
+
+.news .news_top_text {
+  text-align: center;
+  padding: 132px 0 78px;
+  font-size: 45px;
+}
+
+.news .news_box {
+  text-align: left;
+}
+
+.news .news_box .col-md-12 img {
+  width: 100%;
+  max-width: 407px;
+}
+
+.news .news_box .col-md-12 .author {
+  color: #6c6c6c;
+  font-size: 13px;
+  font-family: "AktivGroteskLight";
+  padding: 20px 0px;
+}
+
+.news .news_box .col-md-12 .title {
+  padding-bottom: 13px;
+  font-size: 14px;
+}
+
+.news .news_box .col-md-12 .news_text {
+  font-family: "AktivGroteskLight";
+  font-size: 14px;
+  padding-bottom: 38px;
+}
+
+.news .news_box .col-md-12 .more {
+  padding-bottom: 132px;
+}
+
+.news .news_box .col-md-12 .more a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #6c6c6c;
+}
+
+.quote {
+  background-color: #f3f3f3;
+}
+
+.quote .quote_item .owl-carousel .quote_top_text {
+  padding: 223px 0 92px;
+}
+
+.quote .quote_item .owl-carousel .quote_text {
+  font-family: 'FuturaPT';
+  font-size: 21px;
+  color: #1a2631;
+  line-height: 35px;
+  -webkit-transform: scaleX(1.0013);
+      -ms-transform: scaleX(1.0013);
+          transform: scaleX(1.0013);
+  text-align: center;
+}
+
+.quote .quote_item .owl-carousel .owl-controls {
+  text-align: center;
+}
+
+.quote .quote_item .owl-carousel .owl-controls .owl-pagination .owl-page {
+  width: 8px;
+  height: 8px;
+  background-color: #dddddd;
+  display: inline-block;
+  margin: 110px 32px 239px 0;
+}
+
+.quote .quote_item .owl-carousel .owl-controls .owl-pagination .active {
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  display: inline-block;
+  margin: 110px 32px 239px 0;
+}
+
+.quote .quote_item .col-md-6 .quote_img {
+  position: absolute;
+  display: inline-block;
+}
+
+.quote .quote_item .col-md-6 .quote_img img {
+  display: inline-block;
+}
+
+.contact {
+  background-color: #FFf;
+  text-align: center;
+}
+
+.contact .contact_top_text {
+  padding: 132px 0 123px;
+  font-size: 45px;
+}
+
+.contact .col-md-10 input {
+  width: 100%;
+  padding-left: 28px;
+  background-color: #efefef;
+  border: none;
+  color: #c0c0c0;
+  line-height: 23px;
+  font-size: 14px;
+  outline: none;
+  font-family: 'BaronNeueBold';
+  height: 66px;
+  margin-bottom: 34px;
+}
+
+.contact .col-md-10 textarea {
+  width: 100%;
+  padding-left: 28px;
+  background-color: #efefef;
+  border: none;
+  color: #c0c0c0;
+  line-height: 23px;
+  font-size: 14px;
+  outline: none;
+  font-family: 'BaronNeueBold';
+  height: 365px;
+  margin-bottom: 34px;
+  padding-top: 30px;
+}
+
+.contact .col-md-10 button {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  float: left;
+  color: #c0c0c0;
+  background-color: #FFF;
+  margin-left: 50px;
+  padding-bottom: 155px;
+}
+
+footer {
+  background-color: #FFF;
+}
+
+footer .social_icon {
+  float: left;
+  text-align: left;
+}
+
+footer .social_icon ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer .social_icon ul li {
+  display: inline-block;
+}
+
+footer .social_icon ul li a {
+  color: tomato;
+  text-align: left;
+}
+
+footer .social_icon ul li a .fa {
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer .social_icon .footer_text {
+  padding: 17px 0 81px 0px;
+  font-size: 14px;
+  color: #5c5c5c;
+  font-family: "AktivGroteskLight";
+}
+
+.to_top {
+  position: fixed;
+  bottom: 84px;
+  right: 35px;
+}
